@@ -1,0 +1,29 @@
+*{                                                                     
+    margin:0;  
+    padding:0;
+	text-decoration: none;
+	list-style: none;
+    }
+
+body{                                                                     
+     background:url("../images/our.Story.jpg");
+	 background-position: top center;
+	 height:1080px 
+	
+
+
+header{
+	   position: relative;
+	   margin: auto;
+	   width: 1080px;
+	   height: 142px;
+	   background:rgba(255,255,255);
+	   }
+
+	nav{
+	   position: relative;
+	   margin: auto;
+	   width: 939px;
+	   height: 142px;
+	   background:rgba(255,255,192);
+	   }

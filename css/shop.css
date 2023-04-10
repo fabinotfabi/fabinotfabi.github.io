@@ -1,0 +1,107 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+</style>
+*{                                                                     
+  box-sizing: border-box;
+	margin: 0;
+  padding: 0;
+	font-family: 'Arvo', serif;
+	 }
+
+body{                                                                     
+ background-color:#;
+	
+	}
+.header .logo{
+	cursor: pointer;
+ }
+
+.header .logo img{
+	height: 70px;
+	width: auto;
+	transition:all 0.3s;
+ }
+
+
+
+.header .logo img:hover{
+  transform: scale(1.2);
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header .nav{
+	margin-right: 2%;
+}
+.header .nav-links{
+	list-style: none;
+ }
+
+.header .nav-links li{
+display:inline-block;
+	padding: 0 20px;
+	}
+.header .nav-links li:hover{
+	transform: scale(1.1);
+}
+
+.header .nav-links a{
+  font-size: 30px;
+  color: #3F2212;
+	text-decoration: none;
+ }
+
+.header .nav-links li a:hover{
+  color: #ab9680;
+	}
+
+.row .article .section{
+	  padding: 15px;
+	  display:flex;
+	  flex-direction: row;
+	  align-items: center;
+	  }
+.row .article .section .images img {
+	width: 100%;
+}
+.row .aside{background-color: #D3D3D3;
+	flex-direction: column;
+	justify-content:flex-end;
+	width: 250px;
+	margin: .1%;
+  }
+ .aside .aside-news img{
+	 width: 100%;
+	 padding-bottom: 5px;
+	 }
+.aside .hastag,
+.aside .aside-news,
+.aside h2{
+	padding: 25px;
+}
+.footer{
+	background-color:#FFF0C9;
+	padding: 30px;
+	marging: .1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
